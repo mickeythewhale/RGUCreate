@@ -1,0 +1,53 @@
+.request_details {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 10px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+.request_details li {
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: left;
+
+}
+
+.request_details li em {
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    font-style: inherit;
+    font-size: 16px;
+    color: black;
+}
+
+.accept button {
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    background: purple;
+    width: 150px;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 8px;
+
+}
+.accept button:hover,.accept button:active,.accept button:focus {
+    background: cadetblue;
+}
+

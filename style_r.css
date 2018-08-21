@@ -1,0 +1,24 @@
+h3 {
+    font-family: 'Open Sans';
+    float: left;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight:600;
+}
+
+form button {
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    margin-top: 20px;
+    float: right;
+    background: purple;
+    width: 150px;
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 8px;
+
+}
+form button:hover,.form button:active,.form button:focus {
+    background: cadetblue;
+}

@@ -1,0 +1,238 @@
+
+.main.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+a {
+    text-decoration: none;
+}
+/*NAV*/
+
+header nav {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 30px;
+    background-color: purple;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    line-height: 60px;
+}
+
+/* change our tomorrow thingy */
+
+.title-wrap {
+    border-color: aquamarine;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+.underline {
+    display: inline !important;
+    background-image: linear-gradient(to bottom, cadetblue 100%,transparent 100%);
+    background-position: 0 1em;
+    background-repeat: repeat-x;
+    background-size: 10px 10px;
+}
+
+
+/* LOGIN */
+
+.login {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form input {
+    font-family: "Open Sans", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Open Sans", sans-serif;
+    outline: 0;
+    background: purple;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+
+}
+.form button:hover,.form button:active,.form button:focus {
+    background: cadetblue;
+}
+
+/* TABS */
+
+/*
+ CSS for the main interaction
+*/
+.tabset > input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+}
+
+.tabset .tab-panel {
+    display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+    display: block;
+}
+
+/*
+ Styling
+*/
+body {
+    font: 16px/1.5em "Open Sans",  sans-serif;
+    color: #333;
+    font-weight: 300;
+}
+
+.tabset > label {
+    position: relative;
+    display: inline-block;
+    padding: 15px 15px 25px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.tabset > label::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    bottom: 10px;
+    width: 22px;
+    height: 4px;
+    background: purple;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+    color: cadetblue;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+    background: cadetblue;
+}
+
+.tabset > input:checked + label {
+    border-color: #ccc;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+}
+
+.tab-panel {
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+.tabset {
+    max-width: 100%;
+}
+
+/* REQUEST FORM */
+
+
+.form-request {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 750px;
+    margin: 0 auto 100px;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: left;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.form-request input {
+    font-family: "Open Sans", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form-request button {
+    font-family: "Open Sans", sans-serif;
+    outline: 0;
+    background: purple;
+    width: 100px;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+
+}
+.form-request button:hover,.form button:active,.form button:focus {
+    background: cadetblue;
+}
+
+tr.header
+{
+    font-weight:bold;
+}
+tr.alt
+{
+    background-color: #777777;
+}
+

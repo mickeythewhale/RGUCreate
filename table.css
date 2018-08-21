@@ -1,0 +1,33 @@
+table.blueTable {
+    border: 1px solid black;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+    border: 1px solid white;
+    padding: 3px 2px;
+}
+table.blueTable tbody td {
+    font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+    background: lightgray;
+}
+table.blueTable thead {
+    background: purple;
+
+}
+table.blueTable thead th {
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+
+}
+table.blueTable thead th:first-child {
+    border-left: none;
+}
+
+
